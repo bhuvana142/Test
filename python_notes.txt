@@ -1,0 +1,53 @@
+multiplication --
+var1 = 5
+var2 = 3
+var3 = var1 ** var2
+print (var3)
+Relational operators -- 
+var3 = var1 < var2
+var3 = var1 > var2
+var3 = var1 >= var2
+var3 = var1 <= var2
+var3 = var1 == var2
+var3 = var1 != var2
+code 1 --
+name = input("Enter the name :")
+location = input("Enter the location :")
+
+print ("i am {}, from {}".format(name,location))
+
+Addition code:
+num1 = input("Enter the num1 :")
+num2 = input("Enter the num2 :")
+
+num1 = int(num1)
+num2 = int(num2)
+
+print (num1 + num2)
+
+num = raw_input("Enter the marks")
+
+mark = raw_input("Enter the mark :")
+
+mark = int(mark)
+
+
+if (mark >= 80) and (mark <= 100):
+print ("{} is A".format(mark))
+
+if (mark >= 70) and (mark <= 79):
+print ("{} is B".format(mark))
+
+if (mark >= 60) and (mark <= 69):
+print ("{} is C".format(mark))
+
+if (mark >= 50) and (mark <= 59):
+print ("{} is D".format(mark))
+
+if (mark >= 50):
+print ("{} is pass".format(mark))
+
+if (mark < 50):
+print ("{} is fail".format(mark))
+ 
+ 
